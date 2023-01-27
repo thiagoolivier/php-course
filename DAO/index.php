@@ -7,7 +7,7 @@ require_once("config.php");
 // $root->loadbyId(2);
 // echo $root;
 
-// Carrega uma lista de usuarios
+// Carrega todos os usuários contidos no banco de dados e devolve em JSON
 // $lista = Usuario::getList();
 // echo json_encode($lista);
 
@@ -31,13 +31,8 @@ require_once("config.php");
 
 
 //apaga o usuário selecionado pelo loadById();
-
-$usuario = new Usuario();
-
-$usuario->loadById(7);
-
-$usuario->delete();
-
-echo $usuario;
+// $usuario = new Usuario();
+// $usuario->loadById(7);
+// $usuario->delete();
 
 ?>

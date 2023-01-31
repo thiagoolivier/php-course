@@ -1,0 +1,15 @@
+{
+    "name": "thiagooliveira/aula-de-php7",
+    "description": "conteúdo da aula de php7 Hcode",
+    "type": "project",
+    "authors": [
+        {
+            "name": "thiago oliveira",
+            "email": "thiagoolivier53@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "monolog/monolog":"1.0.*"
+    }
+}

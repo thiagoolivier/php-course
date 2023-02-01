@@ -25,3 +25,4 @@ $tpl->assign( "version", PHP_VERSION );
 
 // draw the template
 $tpl->draw( "index" );
+
